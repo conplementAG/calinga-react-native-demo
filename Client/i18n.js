@@ -2,10 +2,10 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import Backend from 'i18next-service-backend';
 
-const service = 'http://10.0.2.2:8888';
+const service = 'https://dev.cali.conplement.cloud/api/v1/projects/reactNativeTest/versions/latest';
 
 const backendOptions = {
-    loadPath: service + '/{{lng}}/',
+    loadPath: service + '/languages/{{lng}}/labels',
     getLanguagesPath: service + '/languages'
 }
 
