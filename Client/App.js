@@ -34,14 +34,14 @@ const App = () => {
       <SafeAreaView>
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"
-          style={styles.scrollView}>
-          <View style={styles.body}>
-            <View style={styles.sectionContainer}>
-              <View style={styles.sectionTitle}>
-                <Text>{t("hello")}</Text>
+          style={ styles.scrollView }>
+          <View style={ styles.body }>
+            <View style={ styles.sectionContainer }>
+              <View style={ styles.sectionTitle }>
+                <Text>{ t("Login.Title") }</Text>
               </View>
             </View>
-            <Picker selectedValue={language} onValueChange={value => setLanguage(value)}>
+            <Picker selectedValue={ language } onValueChange={ value => setLanguage(value) }>
               <Picker.Item label="Deutsch" value="de" />
               <Picker.Item label="English" value="en" />
             </Picker>

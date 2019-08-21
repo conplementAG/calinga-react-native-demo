@@ -2,11 +2,10 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import Backend from 'i18next-service-backend';
 
-const service = 'https://dev.cali.conplement.cloud/api/v1/projects/reactNativeTest/versions/latest';
+const service = 'https://stage.cali.conplement.cloud/api/v1/';
 
 const backendOptions = {
-    loadPath: service + '/languages/{{lng}}/labels',
-    getLanguagesPath: service + '/languages'
+    loadPath: service + 'translations/Example%20Project/v1/{{lng}}'
 }
 
 i18n
@@ -16,6 +15,7 @@ i18n
     // for all options read: https://www.i18next.com/overview/configuration-options
     .init({
         backend: backendOptions,
+        keySeparator: false,
         fallbackLng: 'en',
         debug: true,
         interpolation: {
