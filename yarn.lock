@@ -862,6 +862,11 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
+"@react-native-community/async-storage@^1.6.2":
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/@react-native-community/async-storage/-/async-storage-1.6.2.tgz#a19ca7149c4dfe8216f2330e6b1ebfe2d075ef92"
+  integrity sha512-EJGsbrHubK1mGxPjWB74AaHAd5m9I+Gg2RRPZzMK6org7QOU9WOBnIMFqoeVto3hKOaEPlk8NV74H6G34/2pZQ==
+
 "@react-native-community/cli-platform-android@^2.0.1", "@react-native-community/cli-platform-android@^2.9.0":
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/@react-native-community/cli-platform-android/-/cli-platform-android-2.9.0.tgz#28831e61ce565a2c7d1905852fce1eecfd33cb5e"
@@ -2964,12 +2969,14 @@ i18n-js@^3.3.0:
   resolved "https://registry.yarnpkg.com/i18n-js/-/i18n-js-3.3.0.tgz#05512f7184b5117c087ab597be649720a834c068"
   integrity sha512-+m8jh84IIWlFwEJgwrWCkeIwIES9ilJKBOj5qx8ZTLLmlPz7bjKnCdxf254wRf6M4pkQHtgXGT9r9lGk0e9aug==
 
-i18next-service-backend@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/i18next-service-backend/-/i18next-service-backend-1.0.5.tgz#905f52f7aa80c5a1020f042d480740c54ca07b91"
-  integrity sha512-PkBT3SqZsHlDC4347XRrE1vnG4nvs5QqgSuFhX5YV0/wFTwbC3qskfhCPqG5BgrqqP5/AsdjlYfsKwLrWwHOaw==
+i18next-calinga-backend@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/i18next-calinga-backend/-/i18next-calinga-backend-0.0.2.tgz#c93c64655f45ca7d8705f5d72848138245dbfce3"
+  integrity sha512-2S+J4FxqUrAqgawc06vy8bxuxs4jFtvMJDlZYKePAIu+kP/cKp6u5fSR/i7X+NPzzuWK+4fphq5robFJD2xL2w==
+  dependencies:
+    i18next "^17.2.0"
 
-i18next@^17.0.6:
+i18next@^17.0.6, i18next@^17.2.0:
   version "17.2.0"
   resolved "https://registry.yarnpkg.com/i18next/-/i18next-17.2.0.tgz#d1ac5a817b7e2aaf4bd0374ef689a7e64f5bcef1"
   integrity sha512-ltl4LSzCEAPBbHRJ6R8diJCnxCbVkf6cxH3k1B4CjB0YFGoISm3/Jxgw3noELe9TP+C/x8fEostuJcGVUeYwdw==

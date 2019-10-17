@@ -1,34 +1,35 @@
 {
-  "name": "react-native-client-test",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "react-native start",
-    "test": "jest",
-    "lint": "eslint ."
-  },
-  "dependencies": {
-    "i18n-js": "^3.3.0",
-    "i18next": "^17.0.6",
-    "i18next-service-backend": "^1.0.5",
-    "react": "16.8.6",
-    "react-i18next": "^10.11.4",
-    "react-native": "0.60.4",
-    "react-native-fs": "^2.14.1",
-    "react-native-localize": "^1.1.4"
-  },
-  "devDependencies": {
-    "@babel/core": "7.5.5",
-    "@babel/runtime": "7.5.5",
-    "@react-native-community/eslint-config": "0.0.3",
-    "@types/react-native": "^0.60.2",
-    "babel-jest": "24.8.0",
-    "eslint": "6.1.0",
-    "jest": "24.8.0",
-    "metro-react-native-babel-preset": "0.54.1",
-    "react-test-renderer": "16.8.6"
-  },
-  "jest": {
-    "preset": "react-native"
-  }
+    "name": "react-native-client-test",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "react-native start",
+        "test": "jest",
+        "lint": "eslint ."
+    },
+    "dependencies": {
+        "@react-native-community/async-storage": "^1.6.2",
+        "i18n-js": "^3.3.0",
+        "i18next": "^17.0.6",
+        "i18next-calinga-backend": "^0.0.2",
+        "react": "16.8.6",
+        "react-i18next": "^10.11.4",
+        "react-native": "0.60.4",
+        "react-native-fs": "^2.14.1",
+        "react-native-localize": "^1.1.4"
+    },
+    "devDependencies": {
+        "@babel/core": "7.5.5",
+        "@babel/runtime": "7.5.5",
+        "@react-native-community/eslint-config": "0.0.3",
+        "@types/react-native": "^0.60.2",
+        "babel-jest": "24.8.0",
+        "eslint": "6.1.0",
+        "jest": "24.8.0",
+        "metro-react-native-babel-preset": "0.54.1",
+        "react-test-renderer": "16.8.6"
+    },
+    "jest": {
+        "preset": "react-native"
+    }
 }
