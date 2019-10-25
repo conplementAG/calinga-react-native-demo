@@ -35,7 +35,8 @@ const App = () => {
                     <View style={styles.body}>
                         <View style={styles.sectionContainer}>
                             <View style={styles.sectionTitle}>
-                                <Text>{t('Login.Title')}</Text>
+                                <Text>{'Login.Title: ' + t('Login.Title')}</Text>
+                                <Text>{'OnlyInResource: ' + t('OnlyInResource')}</Text>
                             </View>
                         </View>
                         <Picker selectedValue={language} onValueChange={value => setLanguage(value)}>
