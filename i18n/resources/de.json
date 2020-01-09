@@ -1,4 +1,3 @@
 {
-    "Login.Title": "Titel (Aus Assets)",
-    "OnlyInResource": "Aus Assets"
+  "Components.UserAvatar.openCamera": "Foto aufnehmen (von resources)"
 }
