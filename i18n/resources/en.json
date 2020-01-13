@@ -1,3 +1,4 @@
 {
-  "Components.UserAvatar.openCamera": "Take photo (from resources)"
+  "Components.UserAvatar.openCamera": "Take photo (from resources)",
+  "OnlyInResource": "Text that is only available locally"
 }
