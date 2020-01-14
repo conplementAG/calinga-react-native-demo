@@ -14,7 +14,10 @@ i18n.use(initReactI18next)
         lng: 'en',
         debug: false,
         interpolation: { escapeValue: false },
-        defaultNS: 'app'
+        defaultNS: 'app',
+        react: {
+            bindI18n: 'loaded'
+        }
     })
     .then((translationFunc) => {
         i18next = {
