@@ -6,6 +6,8 @@ import backendConfig from './config';
 
 i18n.use(initReactI18next)
     .use(CalingaBackend)
+    // init i18next
+    // for all options read: https://www.i18next.com/overview/configuration-options
     .init({
         ns: ['app'],
         backend: backendConfig,
@@ -24,7 +26,6 @@ i18n.use(initReactI18next)
             i18n,
             t: translationFunc
         };
-        //resolve();
     });
 
 export default i18n;
