@@ -19,9 +19,15 @@ const clearStore = async () => {
 const App = () => {
     const [t, i18n, ready] = useTranslation(undefined, { useSuspense: false });
     [language, setLanguage] = useState(i18n.lng);
+    [loaded, setLoaded] = useState('unknown');
     useEffect(() => {
         i18n.changeLanguage(language);
     }, [language]);
+
+    useEffect(() => {
+        i18n.on('loaded', (loaded) => loaded ? setLoaded('success'): setLoaded('failed'))
+        i18n.on('failedLoading', (lng, ns, msg) => setLoaded(`FAILED; language: ${lng}, ns: ${ns}, msg: ${msg}`))
+    }, []);
 
     if (!ready) {
         return <Text>Loading...</Text>;
@@ -35,14 +41,17 @@ const App = () => {
                     <View style={styles.body}>
                         <View style={styles.sectionContainer}>
                             <View style={styles.sectionTitle}>
-                                <Text>{'Login.Title: ' + t('Login.Title')}</Text>
-                                <Text>{'OnlyInResource: ' + t('OnlyInResource')}</Text>
+                                <Text>{'text 1: ' + t('Components.UserAvatar.openCamera')}</Text>
+                                <Text>{'text 2: ' + t('OnlyInResource')}</Text>
                             </View>
                         </View>
                         <Picker selectedValue={language} onValueChange={value => setLanguage(value)}>
                             <Picker.Item label="English" value="en" />
                             <Picker.Item label="Deutsch" value="de" />
                         </Picker>
+                        <View style={styles.sectionTitle}>
+                            <Text>{'loading state: ' + loaded}</Text>
+                        </View>
                     </View>
                     <Button title="Clear translations" onPress={() => clearStore()} />
                 </ScrollView>

@@ -11,7 +11,7 @@
         "@react-native-community/async-storage": "^1.6.2",
         "i18n-js": "^3.3.0",
         "i18next": "^17.0.6",
-        "i18next-calinga-backend": "0.3.0",
+        "i18next-calinga-backend": "^0.6.0",
         "react": "16.8.6",
         "react-i18next": "^10.11.4",
         "react-native": "0.60.4",
