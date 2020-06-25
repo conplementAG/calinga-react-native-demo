@@ -9,14 +9,12 @@ i18n.use(initReactI18next)
     // init i18next
     // for all options read: https://www.i18next.com/overview/configuration-options
     .init({
-        ns: ['app'],
         backend: backendConfig,
         keySeparator: false,
         fallbackLng: 'en',
         lng: 'en',
         debug: false,
         interpolation: { escapeValue: false },
-        defaultNS: 'app',
         react: {
             bindI18n: 'loaded'
         }
