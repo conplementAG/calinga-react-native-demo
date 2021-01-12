@@ -15,6 +15,11 @@ i18n.use(initReactI18next)
         lng: 'en',
         debug: false,
         interpolation: { escapeValue: false },
+
+        // uncomment the following lines if you want to load multiple projects
+        //ns: ["Demo Project", "testSv"],
+        //defaultNS: "Demo Project",
+
         react: {
             bindI18n: 'loaded'
         }
