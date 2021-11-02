@@ -8,7 +8,8 @@
 
 import React, { Fragment, useEffect, useState } from 'react';
 import AsyncStorage from '@react-native-community/async-storage';
-import { SafeAreaView, StyleSheet, ScrollView, View, Text, StatusBar, Picker, Button } from 'react-native';
+import { SafeAreaView, StyleSheet, ScrollView, View, Text, StatusBar, Button } from 'react-native';
+import { Picker } from '@react-native-community/picker';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
 import { useTranslation } from 'react-i18next';
 
@@ -41,8 +42,8 @@ const App = () => {
                     <View style={styles.body}>
                         <View style={styles.sectionContainer}>
                             <View style={styles.sectionTitle}>
-                                <Text>{'text 1: ' + t('Components.UserAvatar.openCamera')}</Text>
-                                <Text>{'text 2: ' + t('OnlyInResource')}</Text>
+                                <Text>{'Headline: ' + t('Headline')}</Text>
+                                <Text>{'Text 1: ' + t('Text1')}</Text>
                             </View>
                         </View>
                         <Picker selectedValue={language} onValueChange={value => setLanguage(value)}>

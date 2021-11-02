@@ -4,7 +4,9 @@ import en from './resources/en.json';
 import de from './resources/de.json';
 
 const backendOptions = {
-    version: 'v1',
+    organization: 'DEMO',
+    team: 'Default Team',
+    project: 'Demo Project',
     cache: {
         read: async key => {
             try {
