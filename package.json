@@ -9,6 +9,7 @@
     },
     "dependencies": {
         "@react-native-community/async-storage": "^1.12.1",
+        "@react-native-picker/picker": "^2.2.1",
         "i18n-js": "^3.8.0",
         "i18next": "^21.4.0",
         "i18next-calinga-backend": "^0.10.4",

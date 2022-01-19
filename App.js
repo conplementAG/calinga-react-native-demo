@@ -9,7 +9,7 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import AsyncStorage from '@react-native-community/async-storage';
 import { SafeAreaView, StyleSheet, ScrollView, View, Text, StatusBar, Button } from 'react-native';
-import { Picker } from '@react-native-community/picker';
+import { Picker } from '@react-native-picker/picker';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
 import { useTranslation } from 'react-i18next';
 
