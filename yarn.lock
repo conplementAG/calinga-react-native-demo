@@ -3355,9 +3355,9 @@ i18n-js@^3.8.0:
   integrity sha512-hDsGgPuvw/2P+lXSbOafAwspK8Ste8YrwuuUg17W3wEcO1JkQxBlPgsN1t2+852nTnz4YSYTjZc/1nAA2PC/nw==
 
 i18next-calinga-backend@^0.10.4:
-  version "0.10.4"
-  resolved "https://registry.yarnpkg.com/i18next-calinga-backend/-/i18next-calinga-backend-0.10.4.tgz#b55fde002f008c4ff4d835b26ba3de40824b9e77"
-  integrity sha512-gPD8UbdSAH6WKef2N+g+jwYSYmNVAQ5A1a97+OmAUKeKhCkve4DyUGFQoHsac/pXjooBjhZ37UfBuUY8OB3R2w==
+  version "0.10.5"
+  resolved "https://registry.yarnpkg.com/i18next-calinga-backend/-/i18next-calinga-backend-0.10.5.tgz#c1c108d78d8ab169ba2489f28eec495e7ab13df7"
+  integrity sha512-Q7yHlK/ZoUbHFTGH3SzefTO67EuLDpLp9camfMM6lZvxdkIlSxSAxVY84erIAl2ET3D8XxVtgTt+q8Vm4nIjGg==
   dependencies:
     axios "^0.24.0"
     i18next "^21.4.0"
