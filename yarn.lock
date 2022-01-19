@@ -1191,6 +1191,11 @@
   resolved "https://registry.yarnpkg.com/@react-native-community/eslint-plugin/-/eslint-plugin-1.1.0.tgz#e42b1bef12d2415411519fd528e64b593b1363dc"
   integrity sha512-W/J0fNYVO01tioHjvYWQ9m6RgndVtbElzYozBq1ZPrHO/iCzlqoySHl4gO/fpCl9QEFjvJfjPgtPMTMlsoq5DQ==
 
+"@react-native-picker/picker@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@react-native-picker/picker/-/picker-2.2.1.tgz#32b9f540d8e88a73d8856f73cca88251cecb9614"
+  integrity sha512-EC7yv22QLHlTfnbC1ez9IUdXTOh1W31x96Oir0PfskSGFFJMWWdLTg4VrcE2DsGLzbfjjkBk123c173vf2a5MQ==
+
 "@react-native/assets@1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@react-native/assets/-/assets-1.0.0.tgz#c6f9bf63d274bafc8e970628de24986b30a55c8e"
@@ -3350,9 +3355,9 @@ i18n-js@^3.8.0:
   integrity sha512-hDsGgPuvw/2P+lXSbOafAwspK8Ste8YrwuuUg17W3wEcO1JkQxBlPgsN1t2+852nTnz4YSYTjZc/1nAA2PC/nw==
 
 i18next-calinga-backend@^0.10.4:
-  version "0.10.4"
-  resolved "https://registry.yarnpkg.com/i18next-calinga-backend/-/i18next-calinga-backend-0.10.4.tgz#b55fde002f008c4ff4d835b26ba3de40824b9e77"
-  integrity sha512-gPD8UbdSAH6WKef2N+g+jwYSYmNVAQ5A1a97+OmAUKeKhCkve4DyUGFQoHsac/pXjooBjhZ37UfBuUY8OB3R2w==
+  version "0.10.5"
+  resolved "https://registry.yarnpkg.com/i18next-calinga-backend/-/i18next-calinga-backend-0.10.5.tgz#c1c108d78d8ab169ba2489f28eec495e7ab13df7"
+  integrity sha512-Q7yHlK/ZoUbHFTGH3SzefTO67EuLDpLp9camfMM6lZvxdkIlSxSAxVY84erIAl2ET3D8XxVtgTt+q8Vm4nIjGg==
   dependencies:
     axios "^0.24.0"
     i18next "^21.4.0"
