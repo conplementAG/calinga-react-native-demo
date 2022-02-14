@@ -3038,9 +3038,9 @@ flow-parser@^0.121.0:
   integrity sha512-1gIBiWJNR0tKUNv8gZuk7l9rVX06OuLzY9AoGio7y/JT4V1IZErEMEq2TJS+PFcw/y0RshZ1J/27VfK1UQzYVg==
 
 follow-redirects@^1.14.4:
-  version "1.14.7"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.7.tgz#2004c02eb9436eee9a21446a6477debf17e81685"
-  integrity sha512-+hbxoLbFMbRKDwohX8GkTataGqO6Jb7jGwpAlwgy2bIz25XtRm7KEzJM76R1WiNT5SwZkX4Y75SwBolkpmE7iQ==
+  version "1.14.8"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.8.tgz#016996fb9a11a100566398b1c6839337d7bfa8fc"
+  integrity sha512-1x0S9UVJHsQprFcEC/qnNzBLcIxsjAV905f/UkQxbclCsoTWlacCNOpQa/anodLl2uaEKFhfWOvM2Qg77+15zA==
 
 for-in@^1.0.2:
   version "1.0.2"
@@ -3354,7 +3354,7 @@ i18n-js@^3.8.0:
   resolved "https://registry.yarnpkg.com/i18n-js/-/i18n-js-3.8.0.tgz#b8fd6b12e1d88cb71f9806c29bca7c31c012e504"
   integrity sha512-hDsGgPuvw/2P+lXSbOafAwspK8Ste8YrwuuUg17W3wEcO1JkQxBlPgsN1t2+852nTnz4YSYTjZc/1nAA2PC/nw==
 
-i18next-calinga-backend@^0.10.4:
+i18next-calinga-backend@^0.10.5:
   version "0.10.5"
   resolved "https://registry.yarnpkg.com/i18next-calinga-backend/-/i18next-calinga-backend-0.10.5.tgz#c1c108d78d8ab169ba2489f28eec495e7ab13df7"
   integrity sha512-Q7yHlK/ZoUbHFTGH3SzefTO67EuLDpLp9camfMM6lZvxdkIlSxSAxVY84erIAl2ET3D8XxVtgTt+q8Vm4nIjGg==
