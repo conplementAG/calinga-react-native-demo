@@ -3413,10 +3413,10 @@
   "resolved" "https://registry.npmjs.org/i18n-js/-/i18n-js-3.8.0.tgz"
   "version" "3.8.0"
 
-"i18next-calinga-backend@^0.10.6":
-  "integrity" "sha512-dInLoGFALHETmp+A5EiV/CbPTSIeN9cqgdntjhsf+xmJXDdR6o3WzE8FFj9vP5fT6NvQUCPxR2RY81nSHJDyEQ=="
-  "resolved" "https://registry.npmjs.org/i18next-calinga-backend/-/i18next-calinga-backend-0.10.6.tgz"
-  "version" "0.10.6"
+"i18next-calinga-backend@^0.10.7":
+  "integrity" "sha512-3nn51MX4bC+ndK2IMCmN+RbuN0TESWYVNnNEL2H2FVYu04rTkznE8WqHTNxEhz8649ppZ/Jk81tQG9Xlhulilw=="
+  "resolved" "https://registry.npmjs.org/i18next-calinga-backend/-/i18next-calinga-backend-0.10.7.tgz"
+  "version" "0.10.7"
   dependencies:
     "axios" "^0.24.0"
     "i18next" "^21.4.0"
