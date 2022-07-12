@@ -10,13 +10,12 @@
     "dependencies": {
         "@react-native-community/async-storage": "^1.12.1",
         "@react-native-picker/picker": "^2.2.1",
-        "hermes-engine": "^0.11.0",
         "i18n-js": "^3.8.0",
         "i18next": "^21.4.0",
         "i18next-calinga-backend": "^0.10.7",
-        "react": "17.0.2",
+        "react": "18.0.0",
         "react-i18next": "^11.13.0",
-        "react-native": "0.66.4",
+        "react-native": "0.69.1",
         "react-native-fs": "^2.18.0",
         "react-native-localize": "^2.1.5"
     },
